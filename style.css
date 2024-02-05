@@ -1,10 +1,22 @@
-#myDiv{
+.myDiv{
     text-align: right;
     word-spacing: 50px;
+    font-family: inter-Extrabold;
 }
 
-#myMainBody{
+.myMainBody{
     text-align: left;
+}
+
+#myImage{
+    width: 700px;
+    height: 300px;   
+}
+
+#firstId{
+    font-family: bold;
+    display: flex;
+    flex-direction: column;
 }
 
 #second{
