@@ -14,9 +14,19 @@
 }
 
 #firstId{
-    font-family: bold;
-    display: flex;
-    flex-direction: column;
+    font-family: inter-bold;
+    font-weight: bold;
+    font-size: 25px !important;
+
+}
+
+#readBorder{
+    border: 2px solid black;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
 #second{
