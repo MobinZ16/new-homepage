@@ -2,34 +2,25 @@
     text-align: right;
     word-spacing: 50px;
     font-family: inter-Extrabold;
+    margin-bottom: 2em;
+    padding: 0 4rem;
 }
 
-.myMainBody{
-    text-align: left;
-}
 
 #myImage{
-    width: 700px;
+    width: 860px;
     height: 300px;   
 }
 
 #firstId{
     font-family: inter-bold;
     font-weight: bold;
-    font-size: 25px !important;
-
+    
 }
 
-#readBorder{
-    border: 2px solid black;
-    padding: 10px;
-    width: 100px;
-    text-align: center;
-    background-color: black;
-    color: white;
-}
 
-#second{
+.card{
+
     text-align: right;
     border: 2px solid black;
     background-color: rgb(3, 3, 17);
@@ -37,5 +28,37 @@
     width: 300px;
     height: 500px;
     text-align: left;
-    padding: 2%;
+    padding: 1.5%;
+}
+.main{
+    padding: 0 4rem;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 0;
+}
+
+.body{
+    padding: 3rem 3rem; 
+}
+
+.image{
+    width: 100%;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.note{
+    padding: 2rem;
+}
+
+.read{
+    padding: 1rem;
+    background-color: black;
+    width: 8rem;
+    color: white;
 }
