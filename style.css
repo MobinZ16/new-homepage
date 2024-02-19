@@ -62,3 +62,17 @@
     width: 8rem;
     color: white;
 }
+
+.secondDiv{
+    display: flex;
+    padding: 1rem 4rem;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.firstPart{
+    text-align: top;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
