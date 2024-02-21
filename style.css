@@ -75,4 +75,21 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    font-size: 15px;
+}
+
+.secondPart{
+    text-align: top;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 15px;
+}
+
+.thirdPart{
+    text-align: top;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 15px;
 }
